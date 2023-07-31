@@ -1,0 +1,220 @@
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    /* position: absolute; */
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo img {
+    width: 150px;
+    height: 120px;
+}
+
+header nav {
+    position: relative;
+}
+
+header nav a {
+    color: white;
+    font-size: 1.4em;
+    margin: 0 20px;
+    transition: color .5s;
+}
+
+header nav a:hover,
+.active {
+    color: #da9f5b;
+}
+
+.userinfo,
+.logout,
+.menu-page {
+    display: none;
+}
+
+/*///////// header////////// */
+.home {
+    height: 100vh;
+    background-image: url(../../img/carousel-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.home .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 33, 29, 0.7);
+}
+
+.home .overlay-bottom {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-bottom.png);
+    z-index: 1s;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+/* //////end home /////////// */
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 580px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin: 130px auto;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper .icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #da9f5b;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #da9f5b;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #da9f5b;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #da9f5b;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #da9f5b;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #da9f5b;
+    line-height: 57px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #da9f5b;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-register {
+    font-size: .9em;
+    color: #da9f5b;
+    text-align: center;
+    font-family: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a {
+    color: #da9f5b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a :hover {
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 40%;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        width: 90%;
+    }
+}

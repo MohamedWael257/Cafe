@@ -1,0 +1,1718 @@
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+.about {
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.about .line {
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: #da9f5b;
+}
+
+.about .title {
+    position: relative;
+    color: #da9f5b;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.about .year {
+    color: #33211d;
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 1rem;
+}
+
+.about .about-content {
+    position: relative;
+    display: flex;
+    align-items: normal;
+}
+
+.about .about-content .our-story h1,
+.about .about-content .our-vision h1 {
+    color: #33211d;
+    margin-bottom: 1rem;
+}
+
+.about .about-content .our-story h4 {
+    color: #33211d;
+    margin-bottom: 1rem;
+}
+
+.about .about-content .our-story p,
+.about .about-content .our-vision p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.about .about-content .our-story button {
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    background: #33211d;
+    border-radius: 5px;
+    transition: background .5s;
+}
+
+.about .about-content .our-story button:hover {
+    background: #0e0503;
+}
+
+.about .about-content .our-vision button {
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    background: #DA9F5B;
+    border-radius: 5px;
+    transition: background .5s;
+    margin-top: 1rem;
+}
+
+.about .about-content .our-vision button:hover {
+    background: #b58248;
+}
+
+.about .about-content .our-vision h4 {
+    color: #33211d;
+}
+
+.about .about-content .our-vision h4 ion-icon {
+    color: #DA9F5B;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.about-content img {
+    object-fit: cover;
+    height: 100%;
+    /* height: 50vh; */
+}
+
+@media (max-width: 1200px) {
+    .about {
+        padding: 1rem;
+    }
+
+    .about .title,
+    .about .year {
+        font-size: 2.5em;
+    }
+
+
+    .about .about-content .our-story h1,
+    .about .about-content .our-vision h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .about .about-content .our-story button,
+    .about .about-content .our-vision button {
+        font-size: 1.3rem;
+        padding: 10px;
+
+    }
+
+    .about .about-content .our-vision h4 ion-icon {
+        transform: translateY(10px);
+        font-size: 2rem;
+    }
+
+    .about-content img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .about {
+        padding: 1rem;
+    }
+
+    .about .title,
+    .about .year {
+        font-size: 2.5em;
+    }
+
+    .about .about-content .our-story h1,
+    .about .about-content .our-vision h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .about .about-content .our-story button,
+    .about .about-content .our-vision button {
+        /* transform: translateX(0); */
+        font-size: 1.3rem;
+        padding: 10px;
+
+    }
+
+    .about .about-content .our-vision h4 ion-icon {
+        transform: translateY(10px);
+        font-size: 2rem;
+    }
+
+    .about-content img {
+        width: 50%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .about {
+        padding: 2rem;
+    }
+
+    .about .title,
+    .about .year {
+        font-size: 1.5em;
+    }
+
+    .about .about-content {
+        display: block;
+    }
+
+    .about .about-content .our-story h1,
+    .about .about-content .our-vision h1 {
+        text-align: center;
+    }
+
+
+    .about .about-content .our-story button,
+    .about .about-content .our-vision button {
+        transform: translateX(100%);
+    }
+
+
+    .about .about-content .our-vision h4 ion-icon {
+        transform: translateY(10px);
+        font-size: 2rem;
+    }
+
+    .about-content img {
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+
+    .about {
+        position: relative;
+        padding: 1rem;
+    }
+
+    .about .title {
+        font-size: 1.5em;
+    }
+
+    .about .year {
+        font-size: 1.5em;
+    }
+
+    .about .about-content {
+        display: block;
+    }
+
+    .about .about-content .our-story h1,
+    .about .about-content .our-vision h1 {
+        text-align: center;
+    }
+
+
+    .about .about-content .our-story button,
+    .about .about-content .our-vision button {
+        transform: translateX(50%);
+    }
+
+
+    .about .about-content .our-vision h4 ion-icon {
+        transform: translateY(10px);
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .about-content img {
+        width: 100%;
+    }
+}
+
+/*///////end about//////*/
+.services {
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.services .line {
+    /* position: absolute; */
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: #da9f5b;
+}
+
+.services .title {
+    position: relative;
+    color: #da9f5b;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.services .year {
+    color: #33211d;
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 1rem;
+}
+
+.services .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-content .card {
+    width: 550px;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.services-content img {
+    width: 200px;
+    margin-right: 2rem;
+}
+
+.services-content .card .card-details .head {
+    margin-bottom: 1.5rem;
+}
+
+.services-content .card .card-details .head i {
+    color: #33211d;
+    background-color: #b58248;
+    text-align: center;
+    margin-right: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+.services-content .card .card-details .head {
+    color: #33211d;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.services-content .card .card-details p {
+    color: #555;
+}
+
+@media (max-width: 1200px) {
+
+
+    .services {
+        padding: 1rem;
+    }
+
+    .services .year {
+        font-size: 2.2em;
+    }
+
+    .services-content .card {
+        width: 450px;
+    }
+
+
+    .services-content img {
+        height: 200px;
+    }
+
+    .services-content .card .card-details .head i {
+        margin-right: 2px;
+        padding: 5px;
+        font-size: .8em;
+        margin-bottom: 0;
+    }
+
+    .services-content .card .card-details .head {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+
+    .services {
+        padding: 1rem;
+    }
+
+    .services .year {
+        font-size: 2.2em;
+    }
+
+    .services-content .card {
+        width: 450px;
+    }
+
+    .services .services-content {
+        display: block;
+        padding: 0 5rem;
+    }
+
+    .services-content img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .services-content .card .card-details .head i {
+        margin-right: 2px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .services-content .card .card-details .head {
+        font-size: .7em;
+    }
+
+    .services-content .card .card-details p {
+        width: 180px;
+        font-size: 1em;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .services {
+        padding: 1rem;
+    }
+
+    .services .year {
+        font-size: 2em;
+    }
+
+    .services-content .card {
+        width: 300px;
+    }
+
+    .services .services-content {
+        display: block;
+        padding: 0 4rem;
+    }
+
+    .services-content img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .services-content .card .card-details .head i {
+        margin-right: 2px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .services-content .card .card-details .head {
+        font-size: .7em;
+    }
+
+    .services-content .card .card-details p {
+        width: 300px;
+        font-size: .9em;
+    }
+}
+
+@media(max-width:576px) {
+
+    .services {
+        padding: 1rem;
+    }
+
+    .services .year {
+        font-size: 1.8em;
+    }
+
+    .services-content .card {
+        width: 350px;
+    }
+
+    .services .services-content {
+        display: block;
+        padding: 0;
+    }
+
+    .services-content img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .services-content .card .card-details .head i {
+        margin-right: 2px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .services-content .card .card-details .head {
+        font-size: .7em;
+    }
+
+    .services-content .card .card-details p {
+        width: 180px;
+        font-size: .6em;
+    }
+}
+
+/* ///end services/////// */
+.offer {
+    height: 60vh;
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.offer .overlay-top {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-top.png);
+    z-index: 1;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+.offer .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 33, 29, .9);
+}
+
+.offer .overlay-bottom {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-bottom.png);
+    z-index: 1s;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.offer .offer-content {
+    position: absolute;
+    width: 65%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.offer .offer-content .title {
+    color: #da9f5b;
+    font-size: 4.5em;
+}
+
+.offer .offer-content .sub {
+    color: white;
+    font-size: 2.5em;
+}
+
+.offer .offer-content .year {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.offer .offer-content input {
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+.offer .offer-content a {
+    font-size: 1.55em;
+    padding: 1.06rem;
+    background-color: #b58248;
+    color: black;
+    margin-left: -4px;
+    border-radius: 3px;
+    position: relative;
+    top: 1px;
+}
+
+@media (max-width: 1200px) {
+
+    .offer .offer-content .title {
+        font-size: 3.5em;
+    }
+
+    .offer .offer-content .sub {
+        font-size: 2em;
+    }
+
+    .offer .offer-content .year {
+        font-size: 1.2em;
+    }
+
+    .offer .offer-content input {
+        font-size: 1em;
+    }
+
+    .offer .offer-content a {
+        font-size: 1.2em;
+        padding: .9rem;
+        top: 1px;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    .offer .offer-content .title {
+        font-size: 3.5em;
+    }
+
+    .offer .offer-content .sub {
+        font-size: 2em;
+    }
+
+    .offer .offer-content .year {
+        font-size: 1.2em;
+    }
+
+    .offer .offer-content input {
+        font-size: 1em;
+    }
+
+    .offer .offer-content a {
+        font-size: 1.2em;
+        padding: .9rem;
+        top: 1px;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .offer .offer-content .title {
+        font-size: 3.5em;
+    }
+
+    .offer .offer-content .sub {
+        font-size: 2em;
+    }
+
+    .offer .offer-content .year {
+        font-size: 1em;
+    }
+
+    .offer .offer-content input {
+        font-size: 1em;
+    }
+
+    .offer .offer-content a {
+        font-size: 1.2em;
+        padding: .9rem;
+        top: 1px;
+    }
+}
+
+@media(max-width:576px) {
+
+    .offer {
+        height: 40vh;
+    }
+
+    .offer .offer-content .title {
+        font-size: 2em;
+    }
+
+    .offer .offer-content .sub {
+        font-size: 1em;
+    }
+
+    .offer .offer-content .year {
+        font-size: .7em;
+    }
+
+    .offer .offer-content input {
+        font-size: .6em;
+    }
+
+    .offer .offer-content a {
+        font-size: 1.1em;
+        padding: .7rem;
+        top: 2px;
+    }
+}
+
+/* end offer  */
+.menu {
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.menu .line {
+    /* position: absolute; */
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: #da9f5b;
+}
+
+.menu .title {
+    position: relative;
+    color: #da9f5b;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.menu .year {
+    color: #33211d;
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 1rem;
+}
+
+.menu .menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-content .kind {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.menu-content .kind h2 {
+    color: #33211d;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+.menu-content .kind .card {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.menu-content .kind .card .price {
+    position: relative;
+    right: 75px;
+    padding: 10px;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    color: #33211d;
+    background-color: #b58248;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+.menu-content .kind .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.menu .menu-content .kind .card .card-details h1 {
+    color: #33211d;
+    font-weight: 800;
+}
+
+.menu .menu-content .kind .card .card-details p {
+    color: #555;
+}
+
+@media (max-width: 1200px) {
+
+
+    .menu {
+        position: relative;
+        padding: 2rem;
+    }
+
+    .menu .year {
+        font-size: 2.5em;
+    }
+
+    .menu-content .kind {
+        width: 450px;
+    }
+
+    .menu-content .kind h2 {
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .menu-content .kind .card .price {
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 1.1em;
+        display: grid;
+        place-content: center;
+    }
+
+    .menu .menu-content .kind .card .card-details h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    .menu {
+        position: relative;
+        padding: 2rem;
+    }
+
+    .menu .year {
+        font-size: 2.5em;
+    }
+
+    .menu-content .kind {
+        width: 340px;
+    }
+
+    .menu-content .kind h2 {
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .menu-content .kind .card .price {
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 1.1em;
+        display: grid;
+        place-content: center;
+    }
+
+    .menu .menu-content .kind .card .card-details h1 {
+        font-size: .9em;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .menu {
+        position: relative;
+        padding: 1.5rem;
+    }
+
+    .menu .year {
+        font-size: 1.5em;
+    }
+
+    .menu-content .kind {
+        width: 340px;
+        border-bottom: 2px solid #b58248;
+    }
+
+    .menu-content .kind h2 {
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .menu-content .kind .card .price {
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 1.1em;
+        display: grid;
+        place-content: center;
+    }
+
+    .menu .menu-content .kind .card .card-details h1 {
+        font-size: .9em;
+    }
+
+}
+
+@media(max-width:576px) {
+
+
+    .menu {
+        position: relative;
+        padding: 1.5rem;
+    }
+
+    .menu .year {
+        font-size: 1.5em;
+    }
+
+    .menu-content .kind {
+        width: 340px;
+        border-bottom: 2px solid #b58248;
+    }
+
+    .menu-content .kind h2 {
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .menu-content .kind .card .price {
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 1.1em;
+        display: grid;
+        place-content: center;
+    }
+
+    .menu .menu-content .kind .card .card-details h1 {
+        font-size: .9em;
+    }
+}
+
+/* ///end menu/////// */
+
+.online-reservation {
+    margin: 10px 150px;
+    /* width: 1200px; */
+    height: 80vh;
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.online-reservation .overlay-top {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-top.png);
+    z-index: 1;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+.online-reservation .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 33, 29, .9);
+}
+
+.online-reservation .overlay-bottom {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-bottom.png);
+    z-index: 1s;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.online-reservation .overlay .left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.online-reservation .overlay .left .online-content {
+    position: absolute;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.online-reservation .overlay .left .online-content .title {
+    color: #b58248;
+    font-size: 5em;
+}
+
+.online-reservation .overlay .left .online-content .sub {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+.online-reservation .overlay .left .online-content p {
+    color: white;
+    font-size: 1em;
+}
+
+.online-reservation .overlay .left .online-content h4 ion-icon {
+    color: #DA9F5B;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.online-reservation .overlay .right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 587px;
+    bottom: 604px;
+    background-color: rgba(51, 33, 29, .8);
+}
+
+.online-reservation .overlay .right form {
+    position: absolute;
+    margin: 60px;
+}
+
+.online-reservation .overlay .right form label {
+    display: block;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: white;
+}
+
+.online-reservation .overlay .right form input,
+.online-reservation .overlay .right form select {
+    display: block;
+    text-align: left;
+    margin: 1.5rem;
+    font-size: 1.5em;
+    height: 50px;
+    width: 400px;
+    padding-left: 18px;
+    background: transparent;
+    border: 2px solid #b58248;
+    color: #555;
+}
+
+.online-reservation .overlay .right form input[type="submit"] {
+    background-color: #b58248;
+    text-align: center;
+    color: #000;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+
+
+    .online-reservation {
+        margin: 10px 75px;
+    }
+
+    .online-reservation .overlay .left {
+        top: -80px;
+    }
+
+    .online-reservation .overlay .left .online-content .title {
+        font-size: 3em;
+    }
+
+    .online-reservation .overlay .left .online-content .sub {
+        font-size: 1.5em;
+    }
+
+    .online-reservation .overlay .left .online-content p {
+        font-size: 1em;
+    }
+
+    .online-reservation .overlay .left .online-content h4 ion-icon {
+        transform: translateY(10px);
+    }
+
+    .online-reservation .overlay .right {
+        left: 400px;
+        bottom: 590px;
+        height: 90%;
+    }
+
+    .online-reservation .overlay .right form {
+        position: absolute;
+        margin: -10px;
+    }
+
+
+    .online-reservation .overlay .right form label {
+        font-size: 2, 8em;
+    }
+
+    .online-reservation .overlay .right form input,
+    .online-reservation .overlay .right form select {
+        margin: 1.50rem;
+        font-size: 1.5em;
+        height: 50px;
+        width: 400px;
+        padding-left: 18px;
+    }
+
+    .online-reservation .overlay .right form input[type="submit"] {
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    .online-reservation {
+        margin: 10px 35px;
+    }
+
+    .online-reservation .overlay .left {
+        top: -80px;
+    }
+
+    .online-reservation .overlay .left .online-content .title {
+        font-size: 2em;
+    }
+
+    .online-reservation .overlay .left .online-content .sub {
+        font-size: 1em;
+    }
+
+    .online-reservation .overlay .left .online-content p {
+        font-size: 1em;
+    }
+
+    .online-reservation .overlay .left .online-content h4 ion-icon {
+        transform: translateY(10px);
+    }
+
+    .online-reservation .overlay .right {
+        left: 300px;
+        bottom: 590px;
+        height: 97%;
+        width: 54%;
+    }
+
+    .online-reservation .overlay .right form {
+        position: absolute;
+        margin: -10px;
+        width: 370px;
+    }
+
+
+    .online-reservation .overlay .right form label {
+        font-size: 1.8em;
+    }
+
+    .online-reservation .overlay .right form input,
+    .online-reservation .overlay .right form select {
+        margin: 1.50rem;
+        font-size: 1.5em;
+        height: 50px;
+        width: 350px;
+        padding-left: 18px;
+    }
+
+    .online-reservation .overlay .right form input[type="submit"] {
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .online-reservation {
+        margin: 10px 20px;
+    }
+
+    .online-reservation .overlay .left {
+        top: -80px;
+        left: -50px;
+    }
+
+    .online-reservation .overlay .left .online-content .title {
+        font-size: 2em;
+    }
+
+    .online-reservation .overlay .left .online-content .sub {
+        font-size: 1em;
+    }
+
+    .online-reservation .overlay .left .online-content p {
+        font-size: .8em;
+    }
+
+    .online-reservation .overlay .left .online-content h4 ion-icon {
+        transform: translateY(10px);
+    }
+
+    .online-reservation .overlay .right {
+        left: 220px;
+        bottom: 590px;
+        height: 97%;
+        width: 58%;
+    }
+
+    .online-reservation .overlay .right form {
+        position: absolute;
+        margin: -10px;
+        width: 300px;
+    }
+
+
+    .online-reservation .overlay .right form label {
+        font-size: 1.8em;
+    }
+
+    .online-reservation .overlay .right form input,
+    .online-reservation .overlay .right form select {
+        margin: 1.50rem;
+        font-size: 1.5em;
+        height: 50px;
+        width: 280px;
+        padding-left: 18px;
+    }
+
+    .online-reservation .overlay .right form input[type="submit"] {
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
+
+}
+
+@media(max-width:576px) {
+
+
+    .online-reservation {
+        margin: 10px;
+    }
+
+    .online-reservation .overlay .left {
+        position: unset;
+        height: 52%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .online-reservation .overlay .left .online-content {
+        margin: 0;
+    }
+
+    .online-reservation .overlay .left .online-content .title {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .online-reservation .overlay .left .online-content .sub {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .online-reservation .overlay .left .online-content p {
+        font-size: .8em;
+    }
+
+    .online-reservation .overlay .left .online-content h4 ion-icon {
+        transform: translateY(10px);
+    }
+
+    .online-reservation .overlay .right {
+        position: unset;
+        height: 46%;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .online-reservation .overlay .right form {
+        position: absolute;
+        margin: -10px;
+        width: 100%;
+    }
+
+
+    .online-reservation .overlay .right form label {
+        font-size: 1.8em;
+    }
+
+    .online-reservation .overlay .right form input,
+    .online-reservation .overlay .right form select {
+        margin: .5rem auto;
+        font-size: 1.2em;
+        height: 30px;
+        width: 280px;
+        padding-left: 18px;
+    }
+
+    .online-reservation .overlay .right form input[type="submit"] {
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
+
+
+}
+
+/* end online resarvation */
+.contact {
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.contact .line {
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: #da9f5b;
+}
+
+.contact .title {
+    position: relative;
+    color: #da9f5b;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.contact .year {
+    color: #33211d;
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 1rem;
+
+}
+
+.contact .contact-content .details,
+.contact .contact-content .comment {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .contact-content .details .more ion-icon {
+    color: #b58248;
+    font-size: 3em;
+    margin: 0 3.5rem;
+}
+
+.contact .contact-content .details .more h1 {
+    color: #33211d;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.contact .contact-content .details .more p {
+    color: #555;
+    text-align: center;
+}
+
+.contact .contact-content .comment .map {
+    /* width: 650px; */
+    width: 50%;
+}
+
+.contact .contact-content .comment form {
+    /* background-color: #000; */
+    width: 50%;
+}
+
+.contact .contact-content .comment form input[type="text"],
+.contact .contact-content .comment form textarea {
+
+    display: block;
+    text-align: left;
+    margin: 1.5rem auto;
+    font-size: 1.5em;
+    height: 50px;
+    width: 500px;
+    padding-left: 18px;
+    background: transparent;
+    border: 2px solid #555;
+    color: #555;
+}
+
+.contact .contact-content .comment form textarea {
+    /* font-size:small; */
+    margin: 0 auto;
+    height: 150px;
+    width: 600px;
+}
+
+.contact .contact-content .comment form input[type="submit"] {
+    color: #000;
+    /* margin: 0 auto; */
+    font-size: 1.5em;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: #DA9F5B;
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 2rem;
+    }
+
+    .contact .year {
+        font-size: 2.2em;
+    }
+
+    .contact .contact-content .details,
+    .contact .contact-content .comment {
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-content .details .more ion-icon {
+        margin: 0 3.5rem;
+    }
+
+
+    .contact .contact-content .comment .map {
+        /* width: 650px; */
+        width: 40%;
+    }
+
+    .contact .contact-content .comment form {
+        /* background-color: #000; */
+        width: 60%;
+    }
+
+
+    .contact .contact-content .comment form textarea {
+        width: 500px;
+    }
+
+    .contact .contact-content .comment form input[type="submit"] {
+        margin: 10px 50px;
+        font-size: 1.2em;
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .contact .title {
+        font-size: 1.5em;
+    }
+
+    .contact .year {
+
+        font-size: 1.8em;
+
+    }
+
+    .contact .contact-content .comment .map {
+        /* width: 650px; */
+        width: 40%;
+    }
+
+    .contact .contact-content .comment form {
+        /* background-color: #000; */
+        width: 60%;
+    }
+
+    .contact .contact-content .comment form input[type="text"],
+    .contact .contact-content .comment form textarea {
+        width: 300px;
+
+    }
+
+    .contact .contact-content .comment form textarea {
+        width: 400px;
+    }
+
+    .contact .contact-content .comment form input[type="submit"] {
+        font-size: 1.2em;
+        padding: .8rem;
+
+    }
+
+}
+
+@media(max-width:768px) {
+    .contact .year {
+        font-size: 1.5em;
+
+    }
+
+    .contact .contact-content .details .more ion-icon {
+        font-size: 2.5em;
+        transform: translateX(-12px);
+    }
+
+    .contact .contact-content .details .more p {
+        font-size: .7rem;
+    }
+
+    .contact .contact-content .comment {
+        display: grid;
+    }
+
+    .contact .contact-content .comment .map {
+        /* transform: translateX(30px); */
+        width: 500px;
+    }
+
+    .contact .contact-content .comment form {
+        /* background-color: #000; */
+        width: 500px;
+    }
+
+    .contact .contact-content .comment form input[type="text"],
+    .contact .contact-content .comment form textarea {
+        width: 450px;
+
+    }
+
+    .contact .contact-content .comment form textarea {
+        width: 450px;
+    }
+
+    .contact .contact-content .comment form input[type="submit"] {
+        font-size: 1.2em;
+        padding: .8rem;
+    }
+
+}
+
+@media(max-width:576px) {
+    .contact .year {
+        font-size: 1.5em;
+
+    }
+
+    .contact .contact-content .details {
+        display: grid;
+    }
+
+    .contact .contact-content .details .more {
+        display: grid;
+        grid-template-columns: 70px 70px 1fr;
+        gap: 20px;
+        padding: 0;
+        background-color: #000;
+    }
+
+    .md.hydrated {
+        margin-left: 0;
+    }
+
+    .contact .contact-content .details .more h1 {
+        font-size: 1em;
+    }
+
+    .contact .contact-content .details .more ion-icon {
+        font-size: 2em;
+        transform: translateX(0px);
+    }
+
+
+    .contact .contact-content .comment .map {
+        transform: translateX(0px);
+        width: 300px;
+    }
+
+    .contact .contact-content .comment form {
+        /* -color: #000; */
+        width: 300px;
+    }
+
+    .contact .contact-content .comment form input[type="text"],
+    .contact .contact-content .comment form textarea {
+        width: 300px;
+
+    }
+
+    .contact .contact-content .comment form textarea {
+        width: 300px;
+    }
+
+    .contact .contact-content .comment form input[type="submit"] {
+        font-size: 1.1em;
+        padding: .7rem;
+    }
+
+
+
+}
+
+/* end contact */
+footer {
+    margin-top: 3rem;
+    width: 100%;
+    height: 65vh;
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+footer .overlay-top {
+    width: 100%;
+    height: 15px;
+    background-image: url(../../img/overlay-top.png);
+    z-index: 1;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+footer .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 33, 29, .9);
+}
+
+footer .overlay .footer-top {
+    position: absolute;
+    width: 100%;
+    height: 74.5%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+footer .overlay .footer-top h1 {
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: .3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer .overlay .footer-top .more {
+    /* display: block; */
+    display: flex;
+    margin: 1rem;
+    color: white;
+}
+
+footer .overlay .footer-top .more ion-icon {
+    /* display: block; */
+    margin-top: .2rem;
+    margin-right: .5rem;
+}
+
+footer .overlay .footer-top .more p {
+    font-size: 1.2em;
+}
+
+footer .overlay .line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 73%;
+    background-color: #555;
+}
+
+footer .overlay .footer-bottom {
+    position: absolute;
+    width: 100%;
+    height: 24.5%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+
+    footer .overlay .footer-top h1 {
+        letter-spacing: 0em;
+        font-size: 1.2rem;
+    }
+
+    footer .overlay .footer-top .more ion-icon {
+
+        font-size: 1.5rem !important;
+    }
+
+    footer .overlay .footer-top .more p {
+        font-size: 1.2em;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    footer .overlay .footer-top h1 {
+        letter-spacing: 0em;
+        font-size: 1rem;
+    }
+
+    footer .overlay .footer-top .more ion-icon {
+
+        font-size: 1.2rem !important;
+    }
+
+    footer .overlay .footer-top .more p {
+        font-size: .8em;
+    }
+
+}
+
+@media(max-width:768px) {
+    footer .overlay .footer-top h1 {
+        letter-spacing: 0em;
+        font-size: 1rem;
+    }
+
+    footer .overlay .footer-top .more ion-icon {
+
+        font-size: 1.2rem !important;
+    }
+
+    footer .overlay .footer-top .more p {
+        font-size: .7em;
+    }
+
+}
+
+@media(max-width:576px) {
+    footer {
+        height: 80vh;
+    }
+
+    footer .overlay .footer-top {
+        display: block;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    footer .overlay .footer-top h1 {
+        letter-spacing: 0em;
+        font-size: .7rem;
+    }
+
+    footer .overlay .footer-top .more ion-icon {
+        font-size: 1rem !important;
+    }
+
+    footer .overlay .footer-top .more p {
+        font-size: .1em !important;
+    }
+
+    footer .overlay .footer-bottom {
+        transform: translateY(120px);
+    }
+}

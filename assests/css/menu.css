@@ -1,0 +1,186 @@
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+.menu {
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.menu .line {
+    /* position: absolute; */
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: #da9f5b;
+}
+
+.menu .title {
+    position: relative;
+    color: #da9f5b;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.menu .year {
+    color: #33211d;
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 1rem;
+}
+
+.menu .buy {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+}
+
+.buy .menu-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+
+.menu-content .card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    border: 2px solid #33211d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 5fr;
+}
+
+.menu-content .card img {
+    /* width: 100%; */
+    /* height: 100%; */
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.menu-content .card .price {
+    position: relative;
+    right: 110px;
+    padding: 6px;
+    width: 100%;
+    height: 28%;
+    /* text-align: center; */
+    color: #33211d;
+    background-color: #b58248;
+    font-size: 1.5em;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.card .card-details h1 {
+    color: #33211d;
+    font-weight: 800;
+}
+
+.card .card-details p {
+    color: #555;
+}
+
+.card .card-details button {
+    color: #33211d;
+    background-color: #b58248;
+    font-size: 1.3em;
+    padding: 13px;
+    margin-top: 1rem;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.buy .fatora {
+    background-color: #33211d;
+    width: 100%;
+    /* height: 30%; */
+    /* position: absolute; */
+    /* top: 304px; */
+    /* right: 0; */
+    overflow: auto;
+    position: relative;
+}
+
+.fatora div {
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.fatora div .title {
+    font-size: 1.5em;
+    /* position: absolute; */
+    /* left: 10px; */
+}
+
+.fatora div .price {
+    font-size: 1.5em;
+    position: absolute;
+    right: 60px;
+}
+
+.fatora div ion-icon {
+    font-size: 2.8em;
+    position: absolute;
+    right: 0px;
+    /* top: -5px; */
+    color: #000;
+}
+
+.fatora .total {
+    text-align: right;
+    font-size: 1.4em;
+    margin-right: 10px;
+}
+
+/* ///end menu/////// */
+@media (max-width: 1200px) {
+    .menu-content .card .price {
+        padding: 6px;
+        width: 149%;
+        height: 26%;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu {
+        position: relative;
+        padding: 3rem 1rem;
+    }
+
+    .menu-content .card .price {
+        width: 110%;
+    }
+
+    .menu .buy {
+        /* grid-template-columns: 1fr; */
+    }
+}
+
+@media (max-width: 768px) {
+    .menu .buy {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 400px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* .fatora {
+        width: 100%;
+    } */
+    .menu {
+        padding: 0;
+    }
+}

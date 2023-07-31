@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assests/css/header.css">
+    <link rel="stylesheet" href="assests/css/menu.css">
+    <link rel="stylesheet" href="assests/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Cafe</h1>
+            <!-- <img src="img/images.png"> -->
+            <!-- <img src="img/تنزيل.jpg" alt=""> -->
+            <!-- <img src="img/logo.jpg" alt=""> -->
+        </div>
+        <div class="dropdown">
+            <p class="show">=</p>
+            <div class="dropdown-menu">
+                <nav>
+                    <a class="active" href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a class="menu-page" href="#">Menu</a>
+                    <a class="Signin" href="login.html">Sign in</a>
+                    <a href="#" class="logout">Logout</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--///// end header/////// -->
+    <div class="home">
+        <div class="overlay">
+            <div class="home-content">
+                <div class="title">We Have Been Serving</div>
+                <div class="sub">CAFE</div>
+                <div class="year">* SINCE 1950 *</div>
+            </div>
+        </div>
+        <div class="overlay-bottom"></div>
+    </div>
+    <!-- ///////end home////// -->
+    <div class="menu">
+        <div class="line"></div>
+        <div class="title">MENU & PRICING</div>
+        <h1 class="year">Competitive Pricing</h1>
+        <div class="buy">
+            <div class="menu-content"></div>
+            <div class="fatora">
+                <div></div>
+                <p class="total"></p>
+                <!-- <button class="deleteall">Delete all</button> -->
+            </div>
+        </div>
+
+    </div>
+    <script>
+        let btn = document.querySelector('.dropdown>p')
+        let drop = document.querySelector('.dropdown-menu')
+        btn.addEventListener('click', function () {
+            drop.classList.toggle('active')
+            btn.classList.toggle('act')
+        })
+    </script>
+    <script src="assests/js/user.js"></script>
+    <script src="assests/js/index.js"></script>
+    <script src="assests/js/menu.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
